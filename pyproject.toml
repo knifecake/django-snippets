@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "django-snippets"
+version = "0.1.0"
+description = "A collection of assorted code snippets useful in Django projects."
+authors = ["Elias Hernandis <elias@hernandis.me>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^5.0.4"
+base58 = "^2.1.1"
+
+
+[tool.poetry.group.dev.dependencies]
+tblib = "^3.0.0"
+coverage = "^7.5.0"
+pre-commit = "^3.7.0"
+ruff = "^0.4.2"
+
+[tool.ruff]
+line-length = 88
+indent-width = 4
+target-version = "py311"
+
+[tool.ruff.format]
+quote-style = "single"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
