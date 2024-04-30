@@ -1,5 +1,7 @@
 # Django snippets
 
+[![Test](https://github.com/knifecake/django-snippets/actions/workflows/test.yml/badge.svg)](https://github.com/knifecake/django-snippets/actions/workflows/test.yml)
+
 A collection of utilities which I've used across several Django projects.
 
 The motivation for this repository is to hold together a bunch of code snippets
